@@ -1,7 +1,7 @@
 # This Demo is built to demonstrate full CI/CD flow on AWS using Opensource application 
 
 Setup Jenkins Server on AWS
----------------------------
+--
 Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance (free tier)
 
 	• Git Configuration (SCM Repo)
@@ -9,11 +9,12 @@ Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance
 	• Configure SCM pull every minute 
 	• Configure Github
 
+Build WeAPP application 
+--
 Build WebApp using maven and push to GitHub Public repository  https://github.com
------------------------------
 
 Setup Ansible Server & Docker Engine on AWS
----------------------------
+--
 Install of Ansible Server (Automation orchestration) on AWS EC2 Linux instance (free tier)
 
 	• Install Docker Engine on Ansible Server
@@ -24,7 +25,7 @@ Install of Ansible Server (Automation orchestration) on AWS EC2 Linux instance (
 	• Push Docker image to Docker Hub (Public )
 
 Setup Kubernetes (K8s) Cluster on AWS
----------------------------
+--
 Create Ubuntu Linux instance (free tier)  on AWS and install AWSCLI
 
 	• Install  Kubernetes Server (Containers orchestration)   
@@ -39,7 +40,7 @@ Create Ubuntu Linux instance (free tier)  on AWS and install AWSCLI
 	• Create Kubernetes Cluster
 
 Deploying WebApp pods on Kubernetes
------------------------------------
+--
 
 On Ansible Server create Ansible Playbook to automate following tasks
 
@@ -54,7 +55,7 @@ On Ansible Server create Ansible Playbook to automate following tasks
   
 Make changes to WebApp and demo complete CI/CD flow
 
----------------------------
+--
 After demo
 
 	• Destroy Deployment (kubectl)
