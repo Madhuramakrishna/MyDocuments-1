@@ -9,7 +9,7 @@ Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance
 	• Configure SCM pull every minute 
 	• Configure Github
 
-Build WeAPP application 
+Build WeAPP application  (Java 1.8 + Tomcat) 
 --
 Build WebApp using maven and push to GitHub Public repository  https://github.com
 
