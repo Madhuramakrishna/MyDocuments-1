@@ -1,5 +1,4 @@
-# MyDocuments
-This Demo is built to demonstrate full CI/CD flow on AWS using Opensource application 
+# This Demo is built to demonstrate full CI/CD flow on AWS using Opensource application 
 
 Setup Jenkins Server on AWS
 ---------------------------
@@ -11,6 +10,7 @@ Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance
 	• Configure Github
 
 Build WebApp using maven and push to GitHub Public repository  https://github.com
+-----------------------------
 
 Setup Ansible Server & Docker Engine on AWS
 ---------------------------
