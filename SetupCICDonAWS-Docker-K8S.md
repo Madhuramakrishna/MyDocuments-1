@@ -46,7 +46,8 @@ On Ansible Server create Ansible Playbook to automate following tasks
 
 	• Pull Docker image from Docker hub to Kubernetes Server
 	• Deploy Web Application on 2 nodes replica set with Load balancer
-	• Create Service & expose deployment as service to outside world  ( This will create an ELB in front of those 2 containers and allow us to publicly access them)
+	• Create Service & expose deployment as service to outside world  
+	( This will create an ELB in front of those 2 containers and allow us to publicly access them)
 		○ Validate Pods
 		○ Validate Deployments
 		○ Validate Service
@@ -55,9 +56,8 @@ On Ansible Server create Ansible Playbook to automate following tasks
   
 Make changes to WebApp and demo complete CI/CD flow
 
---
 After demo
-
+--
 	• Destroy Deployment (kubectl)
 	• Destroy Service (kubectl)
 	• Delete Kubernetes Cluster (kops)
