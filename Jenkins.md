@@ -14,4 +14,11 @@ Getting Started With Shared Library
 
 https://devopscube.com/jenkins-shared-library-tutorial/
 
+Backup Jenkins Data and Configurations
+
+https://devopscube.com/jenkins-backup-data-configurations/
+
+Setup AWS ECS Cluster as Build Slave for Jenkins
+
+https://devopscube.com/setup-ecs-cluster-as-build-slave-jenkins/
 
