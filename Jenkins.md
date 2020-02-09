@@ -22,3 +22,6 @@ Setup AWS ECS Cluster as Build Slave for Jenkins
 
 https://devopscube.com/setup-ecs-cluster-as-build-slave-jenkins/
 
+Jenkins Automated Build Trigger On Github Pull Request
+
+https://devopscube.com/jenkins-build-trigger-github-pull-request/
