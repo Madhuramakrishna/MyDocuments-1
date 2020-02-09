@@ -8,6 +8,8 @@ How to Setup Docker containers as Build Slaves for Jenkins
 
 https://devopscube.com/docker-containers-as-build-slaves-jenkins/
 
+https://devopscube.com/jenkins-master-build-slaves-docker-container/
+
 Getting Started With Shared Library
 
 https://devopscube.com/jenkins-shared-library-tutorial/
