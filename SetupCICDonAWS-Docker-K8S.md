@@ -1,4 +1,4 @@
-# This Demo is built to demonstrate full CI/CD flow on AWS using Opensource application 
+# This document is built to demonstrate full CI/CD flow on AWS using Opensource application 
 
 Setup Jenkins Server on AWS
 --
