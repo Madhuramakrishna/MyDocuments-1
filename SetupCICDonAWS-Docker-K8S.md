@@ -2,7 +2,7 @@
 
 Setup Jenkins Server on AWS
 --
-Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance (free tier)
+#### Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance (free tier)
 
 	• Git Configuration (SCM Repo)
 	• Maven Configuration (Build manager)
@@ -11,11 +11,11 @@ Install of Jenkins (CI/CD Pipelines) on Jenkins Server on AWS EC2 Linux instance
 
 Build WeAPP application  (Java 1.8 + Tomcat) 
 --
-Build WebApp using maven and push to GitHub Public repository  https://github.com
+#### Build WebApp using maven and push to GitHub Public repository  https://github.com
 
 Setup Ansible Server & Docker Engine on AWS
 --
-Install of Ansible Server (Automation orchestration) on AWS EC2 Linux instance (free tier)
+#### Install of Ansible Server (Automation orchestration) on AWS EC2 Linux instance (free tier)
 
 	• Install Docker Engine on Ansible Server
 	• Docker Engine (Containerization) 
@@ -26,7 +26,7 @@ Install of Ansible Server (Automation orchestration) on AWS EC2 Linux instance (
 
 Setup Kubernetes (K8s) Cluster on AWS
 --
-Create Ubuntu Linux instance (free tier)  on AWS and install AWSCLI
+#### Create Ubuntu Linux instance (free tier)  on AWS and install AWSCLI
 
 	• Install  Kubernetes Server (Containers orchestration)   
 	• Install Kube CTL 
@@ -42,7 +42,7 @@ Create Ubuntu Linux instance (free tier)  on AWS and install AWSCLI
 Deploying WebApp pods on Kubernetes
 --
 
-On Ansible Server create Ansible Playbook to automate following tasks
+#### On Ansible Server create Ansible Playbook to automate following tasks
 
 	• Pull Docker image from Docker hub to Kubernetes Server
 	• Deploy Web Application on 2 nodes replica set with Load balancer
@@ -54,7 +54,7 @@ On Ansible Server create Ansible Playbook to automate following tasks
 		
 	• Access WebApp application 
   
-Make changes to WebApp and demo complete CI/CD flow
+#### Make changes to WebApp and demo complete CI/CD flow
 
 After demo
 --
@@ -62,4 +62,4 @@ After demo
 	• Destroy Service (kubectl)
 	• Delete Kubernetes Cluster (kops)
         
-Shutdown AWS instances 
+#### Shutdown AWS instances 
